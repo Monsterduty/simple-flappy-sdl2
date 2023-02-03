@@ -18,15 +18,3 @@ a simple flappy bird based game with sdl2
   ./flappy
   
   ```
-  if you dont have the require SDL libraries, and you are using linux, you can also run
-  make withDeps for use the libraries that are included with the project and then create
-  a eviroment variable called LD_LIBRARY_PATH for can run the executable
-  
-  ```bash
-  
-  make withDeps
-  export LD_LIBRARY_PATH=deps/SDL2/lib
-  ./flappy
-  
-  ```
-  
